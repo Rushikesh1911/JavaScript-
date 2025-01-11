@@ -42,4 +42,42 @@ let myobj = {
  }
 
  console.log(typeof anotherId);
+
+
+
+ //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+ // stack (primitive ) ---> it gives value of variable   ,  heap(non primitive ) ------> it gives reference of variable 
+
+
+
+ let myNickName = "rushikeshkukarni"
+
+ let anotherNickName =  myNickName 
+ anotherNickName = "rushikesh"
+
+ console.log(anotherNickName);
+ console.log( myNickName);
  
+ 
+
+
+ let userOne = {
+    email : "user@google.com",
+   upi : "user@ybl"
+}
+
+
+let userTwo = userOne
+
+
+userTwo.email = "rushikesh@goole.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

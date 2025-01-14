@@ -42,3 +42,13 @@ console.log(newString)
 
 const newStringOne = "     rushikesh      "   //sonmetimes when extra space or extra is needed to be cut trim is used
 console.log(newStringOne.trim());
+
+
+const url = "https://rushikesh.com/rushikesh%20kulkarni"
+
+console.log(url.replace('%20','-'))
+
+
+console.log(url.includes("rushikesh"))
+
+console.log(gameName.split('-'))

@@ -15,5 +15,5 @@ const{courseInstructor: instructor} = course      //destructuring of object
 //    "name": rushikesh
 //     "coursename": "learning vedas"
 //     "price": "free"
-// }
+// 
 

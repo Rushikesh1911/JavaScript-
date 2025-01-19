@@ -17,8 +17,3 @@ const{courseInstructor: instructor} = course      //destructuring of object
 //     "price": "free"
 // }
 
-[
-
-    {},
-    {},
-]

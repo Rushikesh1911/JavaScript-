@@ -46,3 +46,32 @@ function loginUserMessage(username = "Rushi"){
 //console.log(loginUserMessage("rushikesh"))
 console.log(loginUserMessage())
 
+function CalculateCartPrice(val1,val2,...num1){     // this is rest opreator{...} or spread opreator
+    return num1
+}
+//console.log(CalculateCartPrice(200,300,600,1400));
+
+
+
+const user={
+    price : 1500,
+    username: "rushikesh",
+
+}
+
+function handleobject(anyobject){
+    console.log('Username is ${anyobject.username} and price is ${anyobject.price} ');
+
+    
+}
+handleobject(user)
+
+
+
+const myNewArray = [200,800,736,784];
+
+function returnSeconValue(getArray){
+    return getArray[1]
+
+}
+console.log(returnSeconValue([200,800,458,786]));

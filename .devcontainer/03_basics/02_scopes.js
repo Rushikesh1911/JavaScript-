@@ -21,3 +21,45 @@ for (let i = 0; i<Array.length; i++ ){
 }
 
 
+function one(){
+  const username = "Rushikesh"
+   function two(){
+    const website = "You tube"
+    // console.log(username);
+    
+   }
+  //  console.log(website);
+  // two()
+   
+}
+// one()
+
+
+if(true){
+  const username = "Rushikesh"
+  if(username === "Rushikesh"){
+    const website = " Youtube"
+    console.log(username + website);
+    
+  }
+  // console.log(website);
+
+  
+  
+}
+// console.log(username);
+
+
+
+// +++++++++++++++++++++++ intresting +++++++++++++++++++
+console.log(addone(5))
+function addone(num){
+  return num + 1
+}
+
+         
+const addTwo =  function(num){
+    return num + 2
+}
+console.log(addTwo(5));       // this cannot be written in early intilization
+

@@ -18,7 +18,9 @@ async function main() {
 
     console.log("do something else");
 
-    console.log("load data");
+    console.log("load data");                                    // settle means resolve or reject
+                                                                // resolve means promise has setelled sucessfully 
+                                                                // reject means promise has setteled has setteled sucessfully
     let data = await getData()
 
     console.log(data);

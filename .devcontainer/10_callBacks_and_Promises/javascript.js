@@ -32,3 +32,24 @@ const loadscript = (src,callback) => {
 }
 
 loadscript("https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js",callback)
+
+function getData(dataId ,getNextData){
+    setTimeout(() => {
+        console.log("data" ,dataId);
+        if(getNextData){
+            getNextdata();
+        }
+        
+    }, 2000);   
+}
+
+getData(1,() => {
+    console.log("Loading data 2.....");
+    getData(2,() =>{
+        console.log("Loading data 2.....");
+        getData(3,() =>{
+            console.log("Loading data 4.....");
+            getData(4);
+        });
+    });
+});

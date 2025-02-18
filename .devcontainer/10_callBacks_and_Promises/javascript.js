@@ -45,7 +45,7 @@ function getData(dataId ,getNextData){
 
 getData(1,() => {
     console.log("Loading data 2.....");
-    getData(2,() =>{
+    getData(2,() =>{                                                               // this is call back hell
         console.log("Loading data 2.....");
         getData(3,() =>{
             console.log("Loading data 4.....");
